@@ -33,7 +33,6 @@ namespace NinjaTrader.NinjaScript.Indicators
                     Name = "Thomas_TrainingIndicator";
                     Calculate = Calculate.OnPriceChange; // Mise à jour temps réel
                     IsOverlay = true; // Trace directement sur le graphe de prix
-                    DisplayName = Name;
                     IsSuspendedWhileInactive = true;
                     Period = 20;
                     ShowLastPriceLine = true;
